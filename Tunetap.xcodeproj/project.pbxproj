@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		8FE5A9A520EE7F1800FA8E07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE5A9A420EE7F1800FA8E07 /* AppDelegate.swift */; };
-		8FE5A9A720EE7F1800FA8E07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE5A9A620EE7F1800FA8E07 /* ViewController.swift */; };
 		8FE5A9AA20EE7F1800FA8E07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FE5A9A820EE7F1800FA8E07 /* Main.storyboard */; };
 		8FE5A9AC20EE7F1B00FA8E07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FE5A9AB20EE7F1B00FA8E07 /* Assets.xcassets */; };
 		8FE5A9AF20EE7F1B00FA8E07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FE5A9AD20EE7F1B00FA8E07 /* LaunchScreen.storyboard */; };
+		8FE5A9B720EE802D00FA8E07 /* GenreButtonScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE5A9B620EE802D00FA8E07 /* GenreButtonScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8FE5A9A120EE7F1800FA8E07 /* Tunetap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tunetap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FE5A9A420EE7F1800FA8E07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8FE5A9A620EE7F1800FA8E07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8FE5A9A920EE7F1800FA8E07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8FE5A9AB20EE7F1B00FA8E07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FE5A9AE20EE7F1B00FA8E07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FE5A9B020EE7F1B00FA8E07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FE5A9B620EE802D00FA8E07 /* GenreButtonScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreButtonScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				8FE5A9A420EE7F1800FA8E07 /* AppDelegate.swift */,
-				8FE5A9A620EE7F1800FA8E07 /* ViewController.swift */,
+				8FE5A9B620EE802D00FA8E07 /* GenreButtonScreen.swift */,
 				8FE5A9A820EE7F1800FA8E07 /* Main.storyboard */,
 				8FE5A9AB20EE7F1B00FA8E07 /* Assets.xcassets */,
 				8FE5A9AD20EE7F1B00FA8E07 /* LaunchScreen.storyboard */,
@@ -135,8 +135,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FE5A9A720EE7F1800FA8E07 /* ViewController.swift in Sources */,
 				8FE5A9A520EE7F1800FA8E07 /* AppDelegate.swift in Sources */,
+				8FE5A9B720EE802D00FA8E07 /* GenreButtonScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +283,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R5JZD9X863;
 				INFOPLIST_FILE = Tunetap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +302,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R5JZD9X863;
 				INFOPLIST_FILE = Tunetap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
